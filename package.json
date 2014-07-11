@@ -1,0 +1,46 @@
+{
+  "name": "geomapper",
+  "version": "0.1.0",
+  "description": "GeoMapper library for nodejs.",
+  "main": "main.js",
+   "dependencies": {
+        "ngeohash": "~0.6.0"
+    },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mdpianelli/node-geomapper.git"
+  },
+  "scripts": {
+    "test": "nodeunit tests/test.js"
+  }, 
+  "keywords": [
+   "geomapper",
+    "geohash",
+    "geohasher",
+    "geozone",
+    "geolocation"
+  ],
+  "contributors": [
+    {
+      "name": "Shimitri",
+      "email": "shimitri@gmail.com",
+      "url": "http://www.arjunmehta.net/"
+    }
+  ],
+ "author": {
+    "name": "Marcos Pianelli",
+    "email": "mdpianelli@gmail.com",
+    "url": "http://www.freexchange.org"
+  },
+ "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/mdpianelli/node-geomapper/blob/master/LICENSE"
+    }
+  ], 
+  "bugs": {
+    "url": "https://github.com/mdpianelli/node-geomapper/issues"
+  },
+  "homepage": "https://github.com/mdpianelli/node-geomapper"
+}
